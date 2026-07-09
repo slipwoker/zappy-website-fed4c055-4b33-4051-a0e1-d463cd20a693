@@ -1,0 +1,87 @@
+# ניקוי גינות — Generative Engine Optimization Map
+
+> A garden cleaning and maintenance service business that wants an online booking system where customers can schedule appointments, specify garden details, and receive pricing information. The site focuses on convenience and transparency, allowing clients to book and pay online easily.
+
+---
+
+## Pages
+
+### בית
+https://-fed4c055.zappy5.app
+תחזוקת גינות קלה ונוחה מתחילה כאן! קבעו תור, ציינו פרטי גינה וקבלו מחיר שקוף. שירות אמין ומקצועי בהזמנה דיגיטלית פשוטה. התחילו עכשיו!
+
+### שירותים
+https://-fed4c055.zappy5.app/services
+מניקוי יסודי ועד תחזוקה שוטפת, מגוון שירותי גינון בהתאמה אישית. גלו איך נהפוך את החצר שלכם לירוקה ומטופחת בקלות. הציצו בפתרונות!
+
+### אודות
+https://-fed4c055.zappy5.app/about
+צוות מנוסה, אהבה אמיתית לצמחים ושקיפות מלאה – אנחנו כאן כדי להפוך את חלום הגינה שלכם למציאות. קראו איך הכול התחיל!
+
+### צור קשר
+https://-fed4c055.zappy5.app/contact
+יש שאלה? צריכים הצעת מחיר? השאירו פרטים וניצור קשר במהירות. אנחנו זמינים לכל בקשה כדי להבטיח לכם גינה מטופחת בלי כאב ראש. פנו עכשיו!
+
+### תודה שפניתם אלינו
+https://-fed4c055.zappy5.app/thank-you
+ניקוי גינות - תודה שפניתם אלינו
+
+## Legal & Policy
+
+### Privacy Policy
+https://-fed4c055.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-fed4c055.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-fed4c055.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://-fed4c055.zappy5.app/contact
+- Endpoint: https://-fed4c055.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About ניקוי גינות
+A garden cleaning and maintenance service business that wants an online booking system where customers can schedule appointments, specify garden details, and receive pricing information. The site focuses on convenience and transparency, allowing clients to book and pay online easily.
+
+## Services/Products
+- ניקוי גינות
+- קביעת שעות עבודה
+- חישוב מחיר לפי גודל הגינה
+
+## Target Audience
+- בעלי בתים עם גינות
+- חברות ניהול נכסים
+- מקצוענים עסוקים
+
+## Industry
+Landscaping & Garden Maintenance
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://-fed4c055.zappy5.app/sitemap.xml
+- Robots: https://-fed4c055.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://-fed4c055.zappy5.app/llms-full.txt
