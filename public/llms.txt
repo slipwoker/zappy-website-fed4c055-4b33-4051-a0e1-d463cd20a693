@@ -7,37 +7,37 @@
 ## Pages
 
 ### בית
-https://-fed4c055.zappy5.app
+https://example.com
 תחזוקת גינות קלה ונוחה מתחילה כאן! קבעו תור, ציינו פרטי גינה וקבלו מחיר שקוף. שירות אמין ומקצועי בהזמנה דיגיטלית פשוטה. התחילו עכשיו!
 
 ### שירותים
-https://-fed4c055.zappy5.app/services
+https://example.com/services
 מניקוי יסודי ועד תחזוקה שוטפת, מגוון שירותי גינון בהתאמה אישית. גלו איך נהפוך את החצר שלכם לירוקה ומטופחת בקלות. הציצו בפתרונות!
 
 ### אודות
-https://-fed4c055.zappy5.app/about
+https://example.com/about
 צוות מנוסה, אהבה אמיתית לצמחים ושקיפות מלאה – אנחנו כאן כדי להפוך את חלום הגינה שלכם למציאות. קראו איך הכול התחיל!
 
 ### צור קשר
-https://-fed4c055.zappy5.app/contact
+https://example.com/contact
 יש שאלה? צריכים הצעת מחיר? השאירו פרטים וניצור קשר במהירות. אנחנו זמינים לכל בקשה כדי להבטיח לכם גינה מטופחת בלי כאב ראש. פנו עכשיו!
 
 ### תודה שפניתם אלינו
-https://-fed4c055.zappy5.app/thank-you
+https://example.com/thank-you
 ניקוי גינות - תודה שפניתם אלינו
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://-fed4c055.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://-fed4c055.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://-fed4c055.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -47,8 +47,8 @@ Information about WCAG compliance and accessibility features.
 - (No contact details configured yet.)
 
 ### Contact form
-- URL: https://-fed4c055.zappy5.app/contact
-- Endpoint: https://-fed4c055.zappy5.app/api/email/contact-form
+- URL: https://example.com/contact
+- Endpoint: https://example.com/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -82,6 +82,6 @@ Landscaping & Garden Maintenance
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://-fed4c055.zappy5.app/sitemap.xml
-- Robots: https://-fed4c055.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://-fed4c055.zappy5.app/llms-full.txt
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
