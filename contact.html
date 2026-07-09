@@ -352,16 +352,16 @@
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
     <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="0502278883" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
 
@@ -818,7 +818,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0502278883';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -847,8 +847,8 @@
         <li>
           <span class="check-icon" aria-hidden="true">
             <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="10" cy="10" r="9" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M6 10.5L8.5 13L14 7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="10" cy="10" r="9" stroke="currentColor" stroke-width="1.5"></circle>
+              <path d="M6 10.5L8.5 13L14 7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
           </span>
           <span>גודל הגינה וסוג הצמחייה</span>
@@ -856,8 +856,8 @@
         <li>
           <span class="check-icon" aria-hidden="true">
             <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="10" cy="10" r="9" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M6 10.5L8.5 13L14 7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="10" cy="10" r="9" stroke="currentColor" stroke-width="1.5"></circle>
+              <path d="M6 10.5L8.5 13L14 7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
           </span>
           <span>מצב נוכחי ותדירות הטיפול הרצויה</span>
@@ -865,8 +865,8 @@
         <li>
           <span class="check-icon" aria-hidden="true">
             <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="10" cy="10" r="9" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M6 10.5L8.5 13L14 7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="10" cy="10" r="9" stroke="currentColor" stroke-width="1.5"></circle>
+              <path d="M6 10.5L8.5 13L14 7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
           </span>
           <span>מועדים מועדפים לביקור</span>
@@ -877,7 +877,7 @@
       <a href="#contact-form" class="contact-contact-intro-cta btn-primary">
         קבעו פגישה עכשיו
         <svg data-element-type="icon" data-icon-type="svg" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M5 12H19M19 12L13 6M19 12L13 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M5 12H19M19 12L13 6M19 12L13 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
         </svg>
       </a>
     </div>
@@ -894,8 +894,8 @@
     <!-- Decorative leaf sprig -->
     <div class="contact-contact-form-section__decor" aria-hidden="true">
       <svg width="32" height="24" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M16 0C16 0 18 4 22 6C26 8 28 10 28 12C28 14 24 16 20 16C18 16 16 14 16 12C16 14 14 16 12 16C8 16 4 14 4 12C4 10 6 8 10 6C14 4 16 0 16 0Z" fill="var(--primary)" opacity="0.4"/>
-        <path d="M16 8C16 8 17 11 20 13C23 15 25 16 25 17C25 18 22 19 19 19C17 19 16 18 16 17C16 18 15 19 13 19C10 19 7 18 7 17C7 16 9 15 12 13C15 11 16 8 16 8Z" fill="var(--accent)" opacity="0.3"/>
+        <path d="M16 0C16 0 18 4 22 6C26 8 28 10 28 12C28 14 24 16 20 16C18 16 16 14 16 12C16 14 14 16 12 16C8 16 4 14 4 12C4 10 6 8 10 6C14 4 16 0 16 0Z" fill="var(--primary)" opacity="0.4"></path>
+        <path d="M16 8C16 8 17 11 20 13C23 15 25 16 25 17C25 18 22 19 19 19C17 19 16 18 16 17C16 18 15 19 13 19C10 19 7 18 7 17C7 16 9 15 12 13C15 11 16 8 16 8Z" fill="var(--accent)" opacity="0.3"></path>
       </svg>
     </div>
 
@@ -909,25 +909,25 @@
         <div class="contact-contact-form-section__form-grid">
           <div class="contact-contact-form-section__field">
             <label for="contact-name" class="contact-contact-form-section__label">שם מלא</label>
-            <input type="text" id="contact-name" name="name" class="contact-contact-form-section__input" placeholder="ישראל ישראלי" required>
+            <input type="text" id="contact-name" name="name" class="contact-contact-form-section__input" placeholder="ישראל ישראלי" required="">
           </div>
           <div class="contact-contact-form-section__field">
             <label for="contact-email" class="contact-contact-form-section__label">דוא"ל</label>
-            <input type="email" id="contact-email" name="email" class="contact-contact-form-section__input" placeholder="israel@example.com" required>
+            <input type="email" id="contact-email" name="email" class="contact-contact-form-section__input" placeholder="israel@example.com" required="">
           </div>
           <div class="contact-contact-form-section__field">
             <label for="contact-phone" class="contact-contact-form-section__label">טלפון</label>
-            <input type="tel" id="contact-phone" name="phone" class="contact-contact-form-section__input" placeholder="050-1234567" required>
+            <input type="tel" id="contact-phone" name="phone" class="contact-contact-form-section__input" placeholder="050-1234567" required="">
           </div>
           <div class="contact-contact-form-section__field contact-contact-form-section__field--full">
             <label for="contact-message" class="contact-contact-form-section__label">פרטי הפנייה</label>
-            <textarea id="contact-message" name="message" class="contact-contact-form-section__textarea" rows="5" placeholder="ספרו לנו על הגינה שלכם: גודל משוער, סוג העבודה הנדרשת, ומועד מועדף לביצוע..." required></textarea>
+            <textarea id="contact-message" name="message" class="contact-contact-form-section__textarea" rows="5" placeholder="ספרו לנו על הגינה שלכם: גודל משוער, סוג העבודה הנדרשת, ומועד מועדף לביצוע..." required=""></textarea>
           </div>
         </div>
 
         <div class="contact-contact-form-section__privacy privacy-consent">
           <label class="privacy-consent-label">
-            <input type="checkbox" name="privacy_consent" class="privacy-consent-checkbox" required>
+            <input type="checkbox" name="privacy_consent" class="privacy-consent-checkbox" required="">
             <span>קראתי ואני מסכים/ה ל<a href="/terms" target="_blank">תנאי השימוש</a> ול<a href="/privacy" target="_blank">מדיניות הפרטיות</a></span>
           </label>
         </div>
@@ -940,11 +940,11 @@
         <ul class="contact-contact-form-section__info-list">
           <li class="contact-contact-form-section__info-item" data-zappy-contact-field="phone">
             <i class="fas fa-phone contact-contact-form-section__info-icon" aria-hidden="true"></i>
-            <a href="tel:[business_phone]" class="contact-contact-form-section__info-link">[business_phone]</a>
+            <a href="tel:0502278883" class="contact-contact-form-section__info-link">0502278883</a>
           </li>
           <li class="contact-contact-form-section__info-item" data-zappy-contact-field="email">
             <i class="fas fa-envelope contact-contact-form-section__info-icon" aria-hidden="true"></i>
-            <a href="mailto:[business_email]" class="contact-contact-form-section__info-link">[business_email]</a>
+            <a href="mailto:liam23131@gmail.com" class="contact-contact-form-section__info-link">liam23131@gmail.com</a>
           </li>
           <li class="contact-contact-form-section__info-item" data-zappy-contact-field="address">
             <i class="fas fa-map-marker-alt contact-contact-form-section__info-icon" aria-hidden="true"></i>
@@ -966,10 +966,10 @@
       <h2 class="expectations-title">מה קורה אחרי הפנייה?</h2>
       <div class="leaf-sprig-accent" aria-hidden="true">
         <svg data-element-type="icon" data-icon-type="svg" width="32" height="12" viewBox="0 0 32 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M16 2C16 2 14 0 10 0C6 0 4 2 2 4C4 6 6 8 10 8C14 8 16 6 16 2Z" fill="var(--primary)" opacity="0.6"/>
-          <path d="M16 2C16 2 18 0 22 0C26 0 28 2 30 4C28 6 26 8 22 8C18 8 16 6 16 2Z" fill="var(--primary)" opacity="0.6"/>
-          <path d="M16 10C16 10 17.5 11 19.5 11C21.5 11 23 10 23 10" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round"/>
-          <path d="M16 10C16 10 14.5 11 12.5 11C10.5 11 9 10 9 10" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M16 2C16 2 14 0 10 0C6 0 4 2 2 4C4 6 6 8 10 8C14 8 16 6 16 2Z" fill="var(--primary)" opacity="0.6"></path>
+          <path d="M16 2C16 2 18 0 22 0C26 0 28 2 30 4C28 6 26 8 22 8C18 8 16 6 16 2Z" fill="var(--primary)" opacity="0.6"></path>
+          <path d="M16 10C16 10 17.5 11 19.5 11C21.5 11 23 10 23 10" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round"></path>
+          <path d="M16 10C16 10 14.5 11 12.5 11C10.5 11 9 10 9 10" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round"></path>
         </svg>
       </div>
       <p class="expectations-subtitle">תהליך פשוט ושקוף – ככה נראית הדרך לגינה המטופחת שלך</p>
@@ -1024,8 +1024,8 @@
             <article class="contact-faq-card">
                 <span class="contact-faq-card__icon" aria-hidden="true">
                     <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" stroke="currentColor" stroke-width="1.5"/>
-                        <path d="M12 3V5M12 19V21M3 12H5M19 12H21M7.05 7.05L8.46 8.46M15.54 15.54L16.95 16.95M7.05 16.95L8.46 15.54M15.54 8.46L16.95 7.05" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                        <path d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" stroke="currentColor" stroke-width="1.5"></path>
+                        <path d="M12 3V5M12 19V21M3 12H5M19 12H21M7.05 7.05L8.46 8.46M15.54 15.54L16.95 16.95M7.05 16.95L8.46 15.54M15.54 8.46L16.95 7.05" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
                     </svg>
                 </span>
                 <div class="contact-faq-card__content">
@@ -1036,8 +1036,8 @@
             <article class="contact-faq-card">
                 <span class="contact-faq-card__icon" aria-hidden="true">
                     <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M8 2V5M16 2V5M3.5 9.09H20.5M21 8.5V17C21 20 19.5 22 16 22H8C4.5 22 3 20 3 17V8.5C3 5.5 4.5 3.5 8 3.5H16C19.5 3.5 21 5.5 21 8.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M15.6947 13.7H15.7037M15.6947 16.7H15.7037M11.9955 13.7H12.0045M11.9955 16.7H12.0045M8.29431 13.7H8.30329M8.29431 16.7H8.30329" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8 2V5M16 2V5M3.5 9.09H20.5M21 8.5V17C21 20 19.5 22 16 22H8C4.5 22 3 20 3 17V8.5C3 5.5 4.5 3.5 8 3.5H16C19.5 3.5 21 5.5 21 8.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M15.6947 13.7H15.7037M15.6947 16.7H15.7037M11.9955 13.7H12.0045M11.9955 16.7H12.0045M8.29431 13.7H8.30329M8.29431 16.7H8.30329" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                     </svg>
                 </span>
                 <div class="contact-faq-card__content">
@@ -1048,9 +1048,9 @@
             <article class="contact-faq-card">
                 <span class="contact-faq-card__icon" aria-hidden="true">
                     <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="currentColor" stroke-width="1.5"/>
-                        <path d="M5.5 15V11C5.5 7.5 7.5 5.5 11 5.5H13C16.5 5.5 18.5 7.5 18.5 11V15C18.5 18.5 16.5 20.5 13 20.5H11C7.5 20.5 5.5 18.5 5.5 15Z" stroke="currentColor" stroke-width="1.5"/>
-                        <path d="M2 12H5.5M18.5 12H22M12 2V5.5M12 18.5V22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                        <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="currentColor" stroke-width="1.5"></path>
+                        <path d="M5.5 15V11C5.5 7.5 7.5 5.5 11 5.5H13C16.5 5.5 18.5 7.5 18.5 11V15C18.5 18.5 16.5 20.5 13 20.5H11C7.5 20.5 5.5 18.5 5.5 15Z" stroke="currentColor" stroke-width="1.5"></path>
+                        <path d="M2 12H5.5M18.5 12H22M12 2V5.5M12 18.5V22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
                     </svg>
                 </span>
                 <div class="contact-faq-card__content">
@@ -1061,9 +1061,9 @@
             <article class="contact-faq-card">
                 <span class="contact-faq-card__icon" aria-hidden="true">
                     <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M18 7C18.5304 7 19.0391 7.21071 19.4142 7.58579C19.7893 7.96086 20 8.46957 20 9V18C20 18.5304 19.7893 19.0391 19.4142 19.4142C19.0391 19.7893 18.5304 20 18 20H6C5.46957 20 4.96086 19.7893 4.58579 19.4142C4.21071 19.0391 4 18.5304 4 18V9C4 8.46957 4.21071 7.96086 4.58579 7.58579C4.96086 7.21071 5.46957 7 6 7H18Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M12 7V4M9 4H15M12 4V3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M9 12L11 14L15 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M18 7C18.5304 7 19.0391 7.21071 19.4142 7.58579C19.7893 7.96086 20 8.46957 20 9V18C20 18.5304 19.7893 19.0391 19.4142 19.4142C19.0391 19.7893 18.5304 20 18 20H6C5.46957 20 4.96086 19.7893 4.58579 19.4142C4.21071 19.0391 4 18.5304 4 18V9C4 8.46957 4.21071 7.96086 4.58579 7.58579C4.96086 7.21071 5.46957 7 6 7H18Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M12 7V4M9 4H15M12 4V3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M9 12L11 14L15 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                     </svg>
                 </span>
                 <div class="contact-faq-card__content">
@@ -1097,11 +1097,11 @@
         <ul class="footer-contact">
           <li>
             <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-            <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+            <span class="contact-text"><a href="mailto:liam23131@gmail.com">liam23131@gmail.com</a></span>
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-text"><a href="tel:0502278883">0502278883</a></span>
           </li>
           <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
             <span class="contact-text">[business_address]</span></a></li>
@@ -1109,11 +1109,9 @@
       </div>
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours">
-          <li><a href="/"><span class="hours-day">ימים א'–ה'</span> <span class="hours-time">09:00–18:00</span></a></li>
-          <li><a href="/"><span class="hours-day">יום ו'</span> <span class="hours-time">09:00–13:00</span></a></li>
-          <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li>
-        </ul>
+        <ul class="footer-hours"><li><a href="/"><span class="hours-day">יום א’</span> <span class="hours-time">סגור</span></a></li>
+<li><a href="/"><span class="hours-day">ימים ב’–ו’</span> <span class="hours-time">09:00–17:00</span></a></li>
+<li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
       <div class="footer-col footer-social-col">
         <h4>עקבו אחרינו</h4>
@@ -1136,7 +1134,7 @@
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/0502278883" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   

@@ -352,16 +352,16 @@
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
     <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="0502278883" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
 
@@ -818,7 +818,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0502278883';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -843,8 +843,8 @@
         <h1>שירותי ניקוי ותחזוקת גינות</h1>
         <div class="services-overview-section__accent-leaf" aria-hidden="true">
           <svg data-element-type="icon" data-icon-type="svg" width="32" height="18" viewBox="0 0 32 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M2 16C6 10 12 6 18 4C22 2.5 28 2 30 2C28 4 24 8 22 14C20 18 18 22 16 24" stroke="#C96F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M12 10C14 6 18 4 22 3" stroke="#C96F4A" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M2 16C6 10 12 6 18 4C22 2.5 28 2 30 2C28 4 24 8 22 14C20 18 18 22 16 24" stroke="#C96F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M12 10C14 6 18 4 22 3" stroke="#C96F4A" stroke-width="1.5" stroke-linecap="round"></path>
           </svg>
         </div>
       </div>
@@ -858,8 +858,8 @@
       <div class="services-overview-section__chip">
         <div class="services-overview-section__chip-icon">
           <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/>
-            <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"></circle>
+            <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
         </div>
         <span class="services-overview-section__chip-label">ניקוי יסודי</span>
@@ -867,9 +867,9 @@
       <div class="services-overview-section__chip">
         <div class="services-overview-section__chip-icon">
           <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M3 17L7 21L21 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M12 3V7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-            <path d="M12 13V21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M3 17L7 21L21 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M12 3V7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+            <path d="M12 13V21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
           </svg>
         </div>
         <span class="services-overview-section__chip-label">תחזוקה שוטפת</span>
@@ -877,9 +877,9 @@
       <div class="services-overview-section__chip">
         <div class="services-overview-section__chip-icon">
           <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="3" y="3" width="18" height="18" rx="3" stroke="currentColor" stroke-width="1.5"/>
-            <path d="M3 9H21" stroke="currentColor" stroke-width="1.5"/>
-            <path d="M9 21V9" stroke="currentColor" stroke-width="1.5"/>
+            <rect x="3" y="3" width="18" height="18" rx="3" stroke="currentColor" stroke-width="1.5"></rect>
+            <path d="M3 9H21" stroke="currentColor" stroke-width="1.5"></path>
+            <path d="M9 21V9" stroke="currentColor" stroke-width="1.5"></path>
           </svg>
         </div>
         <span class="services-overview-section__chip-label">נכסים מנוהלים</span>
@@ -895,7 +895,7 @@
             <p class="services-services-section__subtitle">מגוון פתרונות ניקוי ותחזוקה שיהפכו את הגינה שלכם למקום המושלם להירגע בו. צוות הגננים המקצועי שלנו ידאג לכל פרט, מפינוי עלים ועד גיזום מדויק.</p>
             <div class="services-services-section__divider">
                 <svg data-element-type="icon" data-icon-type="svg" aria-hidden="true" width="32" height="12" viewBox="0 0 32 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M16 2C16 2 14 0 10 0C6 0 0 2 0 2C0 2 4 6 10 8C16 10 22 8 22 8C22 8 26 6 32 4C32 4 26 0 22 0C18 0 16 2 16 2Z" fill="var(--primary)"/>
+                    <path d="M16 2C16 2 14 0 10 0C6 0 0 2 0 2C0 2 4 6 10 8C16 10 22 8 22 8C22 8 26 6 32 4C32 4 26 0 22 0C18 0 16 2 16 2Z" fill="var(--primary)"></path>
                 </svg>
             </div>
         </div>
@@ -906,8 +906,8 @@
                 <div class="services-services-section__card-accent"></div>
                 <div class="services-services-section__card-icon">
                     <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M16 4C16 4 12 2 8 4C4 6 2 10 2 14C2 18 4 22 8 24C12 26 16 28 16 28C16 28 20 26 24 24C28 22 30 18 30 14C30 10 28 6 24 4C20 2 16 4 16 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M12 14L15 17L21 11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M16 4C16 4 12 2 8 4C4 6 2 10 2 14C2 18 4 22 8 24C12 26 16 28 16 28C16 28 20 26 24 24C28 22 30 18 30 14C30 10 28 6 24 4C20 2 16 4 16 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M12 14L15 17L21 11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                     </svg>
                 </div>
                 <h3 class="services-services-section__card-title">ניקוי גינות יסודי</h3>
@@ -919,10 +919,10 @@
                 <div class="services-services-section__card-accent"></div>
                 <div class="services-services-section__card-icon">
                     <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M8 28L8 12C8 9.79086 9.79086 8 12 8L20 8C22.2091 8 24 9.79086 24 12L24 28" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                        <path d="M4 28L28 28" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                        <path d="M16 4L16 10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                        <circle cx="16" cy="18" r="2" fill="currentColor"/>
+                        <path d="M8 28L8 12C8 9.79086 9.79086 8 12 8L20 8C22.2091 8 24 9.79086 24 12L24 28" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M4 28L28 28" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M16 4L16 10" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                        <circle cx="16" cy="18" r="2" fill="currentColor"></circle>
                     </svg>
                 </div>
                 <h3 class="services-services-section__card-title">גיזום וקיטום מקצועי</h3>
@@ -934,10 +934,10 @@
                 <div class="services-services-section__card-accent"></div>
                 <div class="services-services-section__card-icon">
                     <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="6" y="14" width="20" height="12" rx="2" stroke="currentColor" stroke-width="2"/>
-                        <path d="M10 14L10 8C10 4.68629 12.6863 2 16 2C19.3137 2 22 4.68629 22 8L22 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                        <circle cx="16" cy="20" r="1.5" fill="currentColor"/>
-                        <path d="M16 22L16 25" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        <rect x="6" y="14" width="20" height="12" rx="2" stroke="currentColor" stroke-width="2"></rect>
+                        <path d="M10 14L10 8C10 4.68629 12.6863 2 16 2C19.3137 2 22 4.68629 22 8L22 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                        <circle cx="16" cy="20" r="1.5" fill="currentColor"></circle>
+                        <path d="M16 22L16 25" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
                     </svg>
                 </div>
                 <h3 class="services-services-section__card-title">פינוי שבילים ופטיו</h3>
@@ -949,10 +949,10 @@
                 <div class="services-services-section__card-accent"></div>
                 <div class="services-services-section__card-icon">
                     <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="16" cy="16" r="12" stroke="currentColor" stroke-width="2"/>
-                        <path d="M16 8L16 16L22 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M8 4L10 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                        <path d="M24 4L22 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        <circle cx="16" cy="16" r="12" stroke="currentColor" stroke-width="2"></circle>
+                        <path d="M16 8L16 16L22 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M8 4L10 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M24 4L22 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
                     </svg>
                 </div>
                 <h3 class="services-services-section__card-title">רענון עונתי מקיף</h3>
@@ -964,9 +964,9 @@
                 <div class="services-services-section__card-accent"></div>
                 <div class="services-services-section__card-icon">
                     <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M4 24L4 28L28 28L28 24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                        <path d="M8 24L8 14C8 9.58172 11.5817 6 16 6C20.4183 6 24 9.58172 24 14L24 24" stroke="currentColor" stroke-width="2"/>
-                        <path d="M12 24L12 16C12 13.7909 13.7909 12 16 12C18.2091 12 20 13.7909 20 16L20 24" stroke="currentColor" stroke-width="2"/>
+                        <path d="M4 24L4 28L28 28L28 24" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M8 24L8 14C8 9.58172 11.5817 6 16 6C20.4183 6 24 9.58172 24 14L24 24" stroke="currentColor" stroke-width="2"></path>
+                        <path d="M12 24L12 16C12 13.7909 13.7909 12 16 12C18.2091 12 20 13.7909 20 16L20 24" stroke="currentColor" stroke-width="2"></path>
                     </svg>
                 </div>
                 <h3 class="services-services-section__card-title">ביקורי תחזוקה מתוכננים</h3>
@@ -978,13 +978,13 @@
                 <div class="services-services-section__card-accent"></div>
                 <div class="services-services-section__card-icon">
                     <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M16 2L16 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                        <path d="M16 26L16 30" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                        <path d="M8 4L10.5 8.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                        <path d="M21.5 23.5L24 28" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                        <circle cx="16" cy="16" r="10" stroke="currentColor" stroke-width="2"/>
-                        <path d="M16 10C13.2386 10 11 12.6863 11 16C11 19.3137 13.2386 22 16 22C18.7614 22 21 19.3137 21 16C21 12.6863 18.7614 10 16 10Z" stroke="currentColor" stroke-width="2"/>
-                        <circle cx="16" cy="16" r="3" fill="currentColor"/>
+                        <path d="M16 2L16 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M16 26L16 30" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M8 4L10.5 8.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M21.5 23.5L24 28" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                        <circle cx="16" cy="16" r="10" stroke="currentColor" stroke-width="2"></circle>
+                        <path d="M16 10C13.2386 10 11 12.6863 11 16C11 19.3137 13.2386 22 16 22C18.7614 22 21 19.3137 21 16C21 12.6863 18.7614 10 16 10Z" stroke="currentColor" stroke-width="2"></path>
+                        <circle cx="16" cy="16" r="3" fill="currentColor"></circle>
                     </svg>
                 </div>
                 <h3 class="services-services-section__card-title">פינוי פסולת ירוקה</h3>
@@ -997,7 +997,7 @@
             <a href="#contact" class="services-services-section__cta-button">
                 <span>קבעו פגישה</span>
                 <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M7 5L13 10L7 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M7 5L13 10L7 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
             </a>
         </div>
@@ -1011,8 +1011,8 @@
       <!-- Leaf Sprig Accent -->
       <div class="services-pricing-guide-section__accent" aria-hidden="true">
         <svg width="32" height="20" viewBox="0 0 32 20" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
-          <path d="M16 2C16 2 14 8 10 10C6 12 2 14 2 14C2 14 8 12 12 8C14 6 16 2 16 2Z" fill="var(--primary)"/>
-          <path d="M16 2C16 2 18 8 22 10C26 12 30 14 30 14C30 14 24 12 20 8C18 6 16 2 16 2Z" fill="var(--primary)"/>
+          <path d="M16 2C16 2 14 8 10 10C6 12 2 14 2 14C2 14 8 12 12 8C14 6 16 2 16 2Z" fill="var(--primary)"></path>
+          <path d="M16 2C16 2 18 8 22 10C26 12 30 14 30 14C30 14 24 12 20 8C18 6 16 2 16 2Z" fill="var(--primary)"></path>
         </svg>
       </div>
       <h2 class="services-pricing-guide-section__title">איך אנחנו מתמחרים את ניקוי הגינה שלך?</h2>
@@ -1028,8 +1028,8 @@
         <li class="services-pricing-guide-section__factor">
           <div class="services-pricing-guide-section__factor-icon-wrapper">
             <svg class="services-pricing-guide-section__factor-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
-              <path d="M3 9L12 3L21 9V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V9Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M9 21V12H15V21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M3 9L12 3L21 9V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V9Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M9 21V12H15V21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
           </div>
           <div class="services-pricing-guide-section__factor-content">
@@ -1041,8 +1041,8 @@
         <li class="services-pricing-guide-section__factor">
           <div class="services-pricing-guide-section__factor-icon-wrapper">
             <svg class="services-pricing-guide-section__factor-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
-              <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
           </div>
           <div class="services-pricing-guide-section__factor-content">
@@ -1054,8 +1054,8 @@
         <li class="services-pricing-guide-section__factor">
           <div class="services-pricing-guide-section__factor-icon-wrapper">
             <svg class="services-pricing-guide-section__factor-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
-              <path d="M5 12H19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M12 5L19 12L12 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M5 12H19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M12 5L19 12L12 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
           </div>
           <div class="services-pricing-guide-section__factor-content">
@@ -1067,8 +1067,8 @@
         <li class="services-pricing-guide-section__factor">
           <div class="services-pricing-guide-section__factor-icon-wrapper">
             <svg class="services-pricing-guide-section__factor-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
-              <path d="M16 4H18C18.5304 4 19.0391 4.21071 19.4142 4.58579C19.7893 4.96086 20 5.46957 20 6V20C20 20.5304 19.7893 21.0391 19.4142 21.4142C19.0391 21.7893 18.5304 22 18 22H6C5.46957 22 4.96086 21.7893 4.58579 21.4142C4.21071 21.0391 4 20.5304 4 20V6C4 5.46957 4.21071 4.96086 4.58579 4.58579C4.96086 4.21071 5.46957 4 6 4H8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M15 2H9C8.44772 2 8 2.44772 8 3V5C8 5.55228 8.44772 6 9 6H15C15.5523 6 16 5.55228 16 5V3C16 2.44772 15.5523 2 15 2Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M16 4H18C18.5304 4 19.0391 4.21071 19.4142 4.58579C19.7893 4.96086 20 5.46957 20 6V20C20 20.5304 19.7893 21.0391 19.4142 21.4142C19.0391 21.7893 18.5304 22 18 22H6C5.46957 22 4.96086 21.7893 4.58579 21.4142C4.21071 21.0391 4 20.5304 4 20V6C4 5.46957 4.21071 4.96086 4.58579 4.58579C4.96086 4.21071 5.46957 4 6 4H8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M15 2H9C8.44772 2 8 2.44772 8 3V5C8 5.55228 8.44772 6 9 6H15C15.5523 6 16 5.55228 16 5V3C16 2.44772 15.5523 2 15 2Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
           </div>
           <div class="services-pricing-guide-section__factor-content">
@@ -1136,7 +1136,7 @@
     <!-- Small botanical line-art accent -->
     <div class="services-service-cta-section__accent" aria-hidden="true">
       <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 32 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M16 2C15 8 11 12 5 14C11 16 15 20 16 26C17 20 21 16 27 14C21 12 17 8 16 2Z" stroke="var(--secondary)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+        <path d="M16 2C15 8 11 12 5 14C11 16 15 20 16 26C17 20 21 16 27 14C21 12 17 8 16 2Z" stroke="var(--secondary)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"></path>
       </svg>
     </div>
 
@@ -1149,7 +1149,7 @@
     <a href="/contact" class="services-service-cta-section__btn">
       קבעו פגישה עכשיו
       <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M15 19L8 12L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M15 19L8 12L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
       </svg>
     </a>
   </div>
@@ -1177,11 +1177,11 @@
         <ul class="footer-contact">
           <li>
             <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-            <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+            <span class="contact-text"><a href="mailto:liam23131@gmail.com">liam23131@gmail.com</a></span>
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-text"><a href="tel:0502278883">0502278883</a></span>
           </li>
           <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
             <span class="contact-text">[business_address]</span></a></li>
@@ -1189,11 +1189,9 @@
       </div>
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours">
-          <li><a href="/"><span class="hours-day">ימים א'–ה'</span> <span class="hours-time">09:00–18:00</span></a></li>
-          <li><a href="/"><span class="hours-day">יום ו'</span> <span class="hours-time">09:00–13:00</span></a></li>
-          <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li>
-        </ul>
+        <ul class="footer-hours"><li><a href="/"><span class="hours-day">יום א’</span> <span class="hours-time">סגור</span></a></li>
+<li><a href="/"><span class="hours-day">ימים ב’–ו’</span> <span class="hours-time">09:00–17:00</span></a></li>
+<li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
       <div class="footer-col footer-social-col">
         <h4>עקבו אחרינו</h4>
@@ -1216,7 +1214,7 @@
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/0502278883" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   
